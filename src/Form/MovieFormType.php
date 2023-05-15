@@ -42,7 +42,7 @@ class MovieFormType extends AbstractType
             ])
                   ->add('imagePath', FileType::class, array(
                 'required' => false,
-                'mapped' => false,
+                'required' => false,
                 ))
             // ->add('imagePath', FileType::class, [
             //     'attr' => array(
